@@ -247,6 +247,7 @@ public class Gui extends JFrame {
 		output.setText("");
 		extensionsField.setVisible(false);
 		extensionsInfo.setVisible(false);
+		setLocationRelativeTo(null);
 	}
 	
 	public Gui setDir(String dir) {
